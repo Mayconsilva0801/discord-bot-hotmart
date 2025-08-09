@@ -1,0 +1,10 @@
+# Ignorar pastas
+__pycache__/
+.env
+
+# Ignorar arquivos de configuração local
+*.pyc
+*.log
+
+# Ignorar venv
+venv/
