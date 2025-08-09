@@ -5,7 +5,7 @@ import os
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 CANAL_PERMITIDO_ID = os.getenv("CANAL_ID")
-MAKE_WEBHOOK_URL = os.getenv("WEBHOOOK_URL")
+MAKE_WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 intents = discord.Intents.default()
 intents.message_content = True
